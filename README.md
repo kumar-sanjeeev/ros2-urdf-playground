@@ -48,7 +48,7 @@ Welcome to the ROS2 URDF Workflow repository! This repository showcases how to c
     # launch the docker container using docker-run 
     docker-run --name <container_name> --mwd -it -e DOCKER_UID=$(id -u) -e DOCKER_GID=$(id -g) -e DOCKER_USER=$(id -un) --no-gpu --no-rm <desired_docker_image_name>:latest
     ```
-    **Info :** to find how this what this docker-run command is doing visit [docker-run](https://github.com/ika-rwth-aachen/docker-run) and [docker-ros-ml-images](https://github.com/ika-rwth-aachen/docker-ros-ml-images) repositories.
+    **Info :** to find how this **docker-run** command is doing visit [docker-run](https://github.com/ika-rwth-aachen/docker-run) and [docker-ros-ml-images](https://github.com/ika-rwth-aachen/docker-ros-ml-images) repositories.
 
 - Now you have docker container (name: <container_name> ) running in your system. You can start and exit this container using following commands
 
