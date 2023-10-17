@@ -25,7 +25,7 @@ def generate_launch_description():
     )
 
     # RVIZ Configuration
-    rviz_file = "urdf_vis_scale.rviz"
+    rviz_file = "urdf_vis.rviz"
     rviz_config_dir = os.path.join(get_package_share_directory(package_name=package_description), "rviz", rviz_file)
     rviz_node = Node(
         package="rviz2",
