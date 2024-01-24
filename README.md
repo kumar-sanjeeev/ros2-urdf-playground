@@ -60,7 +60,7 @@ Welcome to the ROS2 URDF Workflow repository! This repository showcases how to c
     - To interact with the running container terminal :
 
         ```bash
-        docker exect -it <container_name/container_id> /bin/bash 
+        docker exec -it <container_name/container_id> /bin/bash 
         ```
 - Build the colcon workspace
     - Container opens up at location where you will see following files
